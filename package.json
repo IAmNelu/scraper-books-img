@@ -1,0 +1,26 @@
+{
+  "name": "scraper-books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx tsc -w & npx nodemon build/index.js && fg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IAmNelu/scraper-books-img.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IAmNelu/scraper-books-img/issues"
+  },
+  "homepage": "https://github.com/IAmNelu/scraper-books-img#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "puppeteer": "^19.5.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
