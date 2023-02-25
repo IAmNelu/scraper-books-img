@@ -2,9 +2,9 @@
   "name": "scraper-books",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "scraper.js",
   "scripts": {
-    "start": "npx tsc -w & npx nodemon build/index.js && fg"
+    "start": "netlify dev"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,9 @@
   },
   "homepage": "https://github.com/IAmNelu/scraper-books-img#readme",
   "dependencies": {
-    "nodemon": "^2.0.20",
-    "puppeteer": "^19.5.2"
-  },
-  "devDependencies": {
-    "typescript": "^4.9.4"
+    "@netlify/functions": "^1.4.0",
+    "@sparticuz/chromium": "^111.0.0",
+    "dotenv": "^16.0.3",
+    "playwright-core": "^1.30.0"
   }
 }
